@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+body{
+     width: 100%;
+     min-height: 100vh;
+     background-color:rgb(243 243 243);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.instagram-wrapper {
+ display:flex;
+ align-items: center;
+ justify-content: start;
+ width: 60%;
+ height: 100vh;
+}
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;    
+}
+.instagram-phone img{
+    height: 50rem;
+}
